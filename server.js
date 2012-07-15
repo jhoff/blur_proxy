@@ -19,6 +19,7 @@ if (cluster.isMaster) {
 
 } else {
 	// Worker processes have a http server.
+	console.log('starting server!');
 	var app = require('./proxy');
 	app.listen(port);
 }

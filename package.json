@@ -1,0 +1,20 @@
+{
+  "author": "Jordan Hoff <jhoff@competeagainst.me> (https://github.com/jhoff)",
+  "name": "blur_proxy",
+  "description": "Proxy server designed to intercept images and modify them on the fly",
+  "version": "0.0.1",
+  "homepage": "https://github.com/jhoff/blur_proxy",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jhoff/blur_proxy.git"
+  },
+  "dependencies": {
+  	"gm" : "1.0.x",
+	"http-proxy" : "0.8.x"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
