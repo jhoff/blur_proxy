@@ -6,8 +6,9 @@
 
   You'll need [node.js](http://nodejs.com), [npm](http://npmjs.org/) and [gd](https://bitbucket.org/pierrejoye/gd-libgd)
 	
+	npm install
+	
 ### start the proxy:
-	npm install gd
 	node server.js
 		
 ### target:
